@@ -1,7 +1,9 @@
-Integrantes: 
+**Integrantes:**
 * Miguel Arturo Monreal Villa 
 * Sebastian Yamil Castellanso Gomez
 * Emiliano Sandoval Pelaez
+
+Seed usada a partir de la pregunta 2: 20240905
 
 # Pregunta 1:
 Calcule n!; la correspondiente **aproximacion de Stirling** $(S(n))=n!\approx \sqrt{2\pi n} n^n e^{-n}$; la diferencia entre ellas $(D(n)=n!-S(n))$; y la diferencia relativa $(DR(n)=D(n)/n!)$ para $n=1,...,12.$
@@ -37,8 +39,8 @@ Calcule los errores de aproximacion de la distribucion normal teórica $(\phi)$ 
 
 | distribucion  | parametros  | n=30  | n=100  | n=500  | 
 |---|---|---|---|---|
-| Binomial  | p=0.5,p=0.7,p=0.9  | 0.0048076186  | 0.0017377124  | 0.0038437253  |
-| Poisson  | λ=1,λ=4,λ=8  |  0.0048552849 | 0.0000855522  | 0.0004606245  |
-| Normal  | µ=2, σ^2=4  |  0.0084982439 |  0.0022024482 |  0.0038983928 |
-| Gamma  | (α=1,β=3),(α=3,β=1),(α=5,β=5) |  0.0087983653 |  0.0049537035 | 0.0010603833  |
-| Beta  |  (θ_1=1,θ_2=1),(θ_1=1/2,θ_2=2),(θ_1=3,θ_2=1/3),(θ_1=1/2,θ_2=1/2) |  0.0005558283 |  0.0002853538 | 0.0002525465  |
+| Binomial  | $$\begin{align*}p=0.5\\p=0.7\\p=0.9\end{align*}$$  | $$\begin{align*}0.0048076186\\0.0029018996\\0.0015798985\end{align*}$$  | $$\begin{align*}0.0029836734\\5.066061e-03\\1.076412e-03\end{align*}$$ | $$\begin{align*}0.0004332234\\1.646701e-03\\2.079719e-04\end{align*}$$  |
+| Poisson  | $$\begin{align*}λ=1\\λ=4\\λ=8\end{align*}$$  |  $$\begin{align*}0.0021613349\\0.0048552849\\1.122741e-02\end{align*}$$ | $$\begin{align*}0.0020205335\\2.654185e-04\\4.772015e-04\end{align*}$$  | $$\begin{align*}0.0004890635\\2.483183e-03\\2.385604e-03\end{align*}$$  |
+| Normal  | $$\begin{align*}µ=2\\ σ^2=4\end{align*}$$  |  0.0084982439 |  0.0022024482 |  0.0038983928 |
+| Gamma  | $$\begin{align*}α=1,β=3\\α=3,β=1\\α=5,β=5\end{align*}$$ |  $$\begin{align*}1.289979e-02\\0.0087983653\\7.017280e-02\end{align*}$$ |  $$\begin{align*}0.0044094176\\3.361983e-03\\2.067220e-02\end{align*}$$ | $$\begin{align*}0.0036913032\\4.598797e-04\\2.295500e-03\end{align*}$$  |
+| Beta  |  $$\begin{align*}θ_1=1,θ_2=1\\θ_1=1/2,θ_2=2\\θ_1=3,θ_2=1/3\\θ_1=1/2,θ_2=1/2\end{align*}$$ |  $$\begin{align*}0.0005558283\\2.461275e-04\\2.038467e-04\\0.0001034358\end{align*}$$ |  $$\begin{align*}0.0005258091\\4.217393e-04\\4.187085e-05\end{align*}$$ | $$\begin{align*}0.0003908928\\3.587558e-05\\6.446036e-05\end{align*}$$  |
