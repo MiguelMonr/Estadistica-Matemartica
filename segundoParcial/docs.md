@@ -82,4 +82,37 @@ Dada una muestra de una distribución Gamma con parámetros `alpha` y `lambda`, 
 ![Gráfica de estimadores Gamma](images/Screenshot%202025-03-20%20at%2010.14.01 a.m..png)
 ![Gráfica de estimadores Gamma](images/Screenshot%202025-03-20%20at%2010.14.28 a.m..png)
 ---
+# **Pregunta 5**: Distribución angular
 
+Dada la distribución angular:
+
+`f(x; alpha) = (1 + alpha * x) / 2`
+
+Se deben calcular los estimadores de:
+
+- **Método de Momentos**:
+  - `alpha_mom = 3 * media_muestra`
+
+- **Máxima Verosimilitud** (resuelto numéricamente).
+
+Además, se evalúa la eficiencia relativa de ambos estimadores.
+
+### **Resultados calculados**:
+
+**Estadísticas descriptivas después del filtrado:**
+- Número de muestras válidas: **4129 de 5000**
+
+**Estimador por Método de Momentos (`alpha_tilde`):**
+- Media: **0.6696887**
+- Varianza: **0.04300503**
+- Varianza teórica: **0.06964286**
+
+**Estimador por Máxima Verosimilitud (`alpha_hat`):**
+- Media: **0.6935898**
+- Varianza: **0.04465401**
+
+**Eficiencia relativa empírica:**
+- **1.038344**
+
+**Gráfica.**
+![Gráfica de estimadores Gamma](images/Screenshot%202025-03-20%20at%2011.40.37 a.m..png)
