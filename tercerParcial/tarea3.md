@@ -10,7 +10,7 @@
 
 ### Resumen de resultados
 
-| # | λ   | p₀    | θ     | n  | p̂₀   | ee(p̂₀) | p̌₀   | ee(p̌₀) | p̃₀   | ee(p̃₀) |
+| # | $λ$   | $p_0$    | $\theta$     | $n$  | $\hat{p}_0$   | $ee(\hat{p}_0)$ | $\check p_0$   | $ee(\check p_0)$ | $\tilde p_0$   | $ee(\tilde p_0)$ |
 |---|-----|--------|-------|----|-------|---------|-------|---------|-------|---------|
 | 1 | 0.5 | 0.6065 | 0.6125| 25 | 0.6091| 0.0836  |0.6029 | 0.0965  |0.6031 | 0.0844  |
 | 2 | 0.5 | 0.6065 | 0.6096| 50 | 0.6103| 0.0604  |0.6079 | 0.0681  |0.6073 | 0.0607  |
@@ -23,17 +23,17 @@
 | 9 | 2.0 | 0.1353 | 0.1370| 80 | 0.1370| 0.0220  |0.1348 | 0.0382  |0.1353 | 0.0218  |
 
 ### Observaciones
-- Los estimadores insesgados (`p̌₀` y `p̃₀`) presentan valores promedio muy cercanos a `p₀`, mientras que `p̂₀` tiene un sesgo positivo, especialmente con muestras pequeñas.
+- Los estimadores insesgados ($\check p_0$ y $\tilde p_0$) presentan valores promedio muy cercanos a $p_0$, mientras que $\hat p_0$ tiene un sesgo positivo, especialmente con muestras pequeñas.
 - El error estándar disminuye al aumentar el tamaño de muestra, como era de esperarse.
-- El estimador `p̃₀` (Rao-Blackwell-Lehmann-Scheffé) muestra la menor varianza entre los insesgados, lo que valida el resultado teórico.
+- El estimador $\tilde p_0$ (Rao-Blackwell-Lehmann-Scheffé) muestra la menor varianza entre los insesgados, lo que valida el resultado teórico.
 
 ---
 
 ## Pregunta 2: **Amplitud de los intervalos de probabilidad**
 
-### Resultados para distribución normal \( N(0, \sigma) \):
+### Resultados para distribución normal  $N(0, \sigma)$:
 
-| σ | Conf. | \(q_i^{sim}\) | \(q_s^{sim}\) | \(w^{sim}\) | \(q_i^{min}\) | \(q_s^{min}\) | \(w^{min}\) |
+| $σ$ | Conf. | $q_i^{sim}$ | $q_s^{sim}$ | $w^{sim}$ | $q_i^{min}$ | $q_s^{min}$ | $w^{min}$ |
 |---|-------|--------------|--------------|-------------|---------------|---------------|-------------|
 | 1 | 0.90  | -1.6449      | 1.6449       | 3.2897      | -1.6449       | 1.6449        | 3.2897      |
 | 1 | 0.95  | -1.9600      | 1.9600       | 3.9199      | -1.9600       | 1.9600        | 3.9199      |
@@ -45,9 +45,9 @@
 | 5 | 0.95  | -9.7998      | 9.7998       | 19.5996     | -9.7998       | 9.7998        | 19.5996     |
 | 5 | 0.99  | -12.8791     | 12.8791      | 25.7583     | -12.8791      | 12.8791       | 25.7583     |
 
-### Resultados para distribución chi-cuadrado \( \chi^2_n \):
+### Resultados para distribución chi-cuadrada $\chi^2_n$:
 
-| n  | Conf. | \(q_i^{sim}\) | \(q_s^{sim}\) | \(w^{sim}\) | \(q_i^{min}\) | \(q_s^{min}\) | \(w^{min}\) |
+| $n$  | Conf. | $q_i^{sim}$ | $q_s^{sim}$ | $w^{sim}$ | $q_i^{min}$ | $q_s^{min}$ | $w^{min}$ |
 |----|-------|--------------|--------------|-------------|---------------|---------------|-------------|
 | 5  | 0.90  | 1.1455       | 11.0705      | 9.9250      | 0.4725        | 9.4299        | 8.9575      |
 | 5  | 0.95  | 0.8312       | 12.8325      | 12.0013     | 0.2968        | 11.1921       | 10.8952     |
@@ -65,24 +65,18 @@
 
 ### Resultados
 
-1. **Intervalo del 90% de confianza para \(\mu_1\) (\(\sigma_1 = 1\)):**  
-   \[
-   [9.601,\, 10.259]
-   \]
+1. **Intervalo del 90% de confianza para $\mu_1$ $(\sigma_1 = 1)$:**  
+   $[9.601,\, 10.259]$
 
-2. **Intervalo del 95% de confianza para \(\mu_2\) (\(\sigma_2\) desconocida):**  
-   \[
-   [9.7855,\, 11.0721]
-   \]
+2. **Intervalo del 95% de confianza para $\mu_2$ ($\sigma_2$ desconocida):**  
+   $[9.7855,\, 11.0721]$
 
 3. **Intervalos de confianza del 95% para las desviaciones estándar:**  
-   - \(\sigma_1\): \([0.7904,\, 1.4081]\)
-   - \(\sigma_2\): \([1.2169,\, 2.1680]\)
+   - $\sigma_1$: $[0.7904,\, 1.4081]$
+   - $\sigma_2$: $[1.2169,\, 2.1680]$
 
-4. **Intervalo de confianza del 95% para el cociente de varianzas \(\theta = \sigma_1^2 / \sigma_2^2\):**  
-   \[
-   [0.1859,\, 0.9573]
-   \]
+4. **Intervalo de confianza del 95% para el cociente de varianzas $\theta = \sigma_1^2 / \sigma_2^2$:**  
+   $[0.1859,\, 0.9573]$
 
 ### Estadísticas descriptivas:
 - **Algoritmo 1:**  
