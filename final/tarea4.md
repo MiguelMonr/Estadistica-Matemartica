@@ -16,7 +16,7 @@
 - Aproximado del 95% (n grande): [0.4898407, 0.6069757]  
 - Cobertura empírica del intervalo aproximado: 0.943  
 
-![Gráfico](image.png)
+![alt text](image-8.png)
 
 ## 2.
 
@@ -31,7 +31,7 @@
 - **p-valor exacto:** 1
 - **Decisión exacta:** No rechazar H₀
 
-![Gráfico](image-1.png)
+![alt text](image-9.png)
 
 ## 3. 
 
@@ -66,7 +66,8 @@
 ### Potencias:
 - n = 10, λ = 1.3: 0.2363931
 - n = 20, λ = 1.3: 0.4480961
-
+![alt text](image-10.png)
+![alt text](image-11.png)
 ## 4. 
 
 - **Región de rechazo:** X > 3
@@ -79,7 +80,7 @@
 **Condiciones:**
 - np = 8 (debe ser > 5)
 - n(1-p) = 32 (debe ser > 5)
-
+![alt text](image-12.png)
 ## 5. 
 
 - **θ verdadero:** 0.3
@@ -166,4 +167,4 @@
 - **Estadístico -2ln(Λ):** 0.7909268 
 - **Valor-p:** 0.37382 
 - **Decisión (10% significancia usando distribución asintótica):** No rechazar H₀
-![alt text](image-7.png)
+![alt text](image-13.png)
